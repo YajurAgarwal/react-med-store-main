@@ -1,0 +1,59 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Times New Roman", Times, serif !important;
+  background: transparent !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.btn-black {
+  text-transform: capitalize;
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: black;
+  border: 0.2rem solid black !important;
+}
+.btn-black:hover {
+  background: lightgrey !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: black;
+}
+.box {
+  /* border: 1px solid #dfdfdf; */
+  /* background-color: #fff; */
+  background-color: black !important;
+}
+
+.g-btn {
+  width: 100% !important;
+  height: 40px !important;
+  line-height: 40px !important;
+  font-size: 15px !important;
+}
+.g-btn > div,
+.g-btn > div > svg {
+  width: 40px !important;
+  height: 38px !important;
+}
